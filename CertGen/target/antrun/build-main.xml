@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <path id="j2sp">
+      <pathelement location="C:\Users\milro\OneDrive\Pulpit\CertGen/src/main/java" />
+    </path>
+    <taskdef classname="com.intellij.ant.Javac2" name="javac2" classpathref="maven.runtime.classpath" />
+    <javac2 destdir="C:\Users\milro\OneDrive\Pulpit\CertGen/target/classes">
+      <src refid="j2sp" />
+    </javac2>
+  </target>
+</project>

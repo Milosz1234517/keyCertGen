@@ -1,0 +1,6 @@
+--add-exports
+java.base/sun.security.x509=ALL-UNNAMED
+--add-exports
+java.base/sun.security.util=ALL-UNNAMED
+--add-exports
+java.base/jdk.internal.misc=ALL-UNNAMED
